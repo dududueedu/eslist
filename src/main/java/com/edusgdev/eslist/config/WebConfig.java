@@ -22,7 +22,7 @@ public class WebConfig {
 	public Docket swagger() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("com.dev.drew.codeplay.server"))
+				.apis(RequestHandlerSelectors.basePackage("com.edusgdev.eslist"))
 				.paths(PathSelectors.any())
 				.build()
 				.apiInfo(metaDados());
